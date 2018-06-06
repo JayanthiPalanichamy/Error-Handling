@@ -12,7 +12,7 @@ class ErrorHandling {
         throw new IllegalArgumentException(message);
     }
 
-    void handleErrorByThrowingAnyCheckedException() throws  FileNotFoundException{
+    void handleErrorByThrowingAnyCheckedException() throws FileNotFoundException {
         throw new FileNotFoundException();
     }
 
@@ -28,7 +28,7 @@ class ErrorHandling {
         throw new NullPointerException(message);
     }
 
-    void handleErrorByThrowingCustomCheckedException() throws CustomCheckedException{
+    void handleErrorByThrowingCustomCheckedException() throws CustomCheckedException {
         throw new CustomCheckedException();
     }
 

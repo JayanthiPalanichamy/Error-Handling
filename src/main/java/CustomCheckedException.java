@@ -1,8 +1,6 @@
-import java.nio.file.FileAlreadyExistsException;
-
 class CustomCheckedException extends Exception {
 
-    CustomCheckedException()  {
+    CustomCheckedException() {
         super();
     }
 
